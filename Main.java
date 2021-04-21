@@ -3,7 +3,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Dell d = new Dell();
-		System.out.println("\n--LAPTOP 1--");
+		System.out.println("\n--DELL--");
 		System.out.println("Brand: " + d.getBrand());
 		System.out.println("Model: " + d.getModel());
 		System.out.println("Color: " + d.getColor());
@@ -19,7 +19,7 @@ public class Main {
 		System.out.println();
 		
 		Asus a = new Asus();
-		System.out.println("\n--LAPTOP 2--");
+		System.out.println("\n--ASUS--");
 		System.out.println("Brand: " + a.getBrand());
 		System.out.println("Model: " + a.getModel());
 		System.out.println("Color: " + a.getColor());
