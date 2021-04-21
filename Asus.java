@@ -1,15 +1,14 @@
 
 import java.util.Scanner;
 
-public class Dell extends Laptop {				//Dell as subclass of Laptop Parent class
+public class Asus extends Laptop {				//Asus as subclass of Laptop Parent class
 	Scanner scan = new Scanner(System.in);
 	
 	private String brand, model, color, processor;
 	private double ram, price;
 	
-	
-	Dell(){
-		this.brand = "Dell";
+	Asus(){
+		this.brand = "Asus";
 		System.out.print("Enter model: ");
 		this.model = scan.nextLine();
 		System.out.print("Enter color: ");
@@ -19,13 +18,13 @@ public class Dell extends Laptop {				//Dell as subclass of Laptop Parent class
 		System.out.print("Enter RAM size: ");
 		this.ram = scan.nextDouble();
 				if (ram == 8) {
-					this.price = 3000;
+					this.price = 3500;
 				}
 				else if (ram == 16) {
-					this.price = 3500;
-			}
+					this.price = 4000;
+				}
 	}
-	
+
 	String getBrand() {
 		return this.brand;
 	}
