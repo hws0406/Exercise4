@@ -14,6 +14,7 @@ public class Main {
 		System.out.println("Width: " + d.getWidth() + "cm");
 		System.out.println("Weight: " + d.getWeight() + "kg");
 		System.out.printf("Price: RM%.2f %n" + d.getPrice());
+		System.out.printf("Installment: RM%.2f %n" + d.getInstallment());
 		
 		System.out.println();
 		
@@ -29,5 +30,6 @@ public class Main {
 		System.out.println("Width: " + a.getWidth() + "cm");
 		System.out.println("Weight: " + a.getWeight() + "kg");
 		System.out.printf("Price: RM%.2f %n" + a.getPrice());
+		System.out.printf("Installment: RM%.2f %n" + d.getInstallment());
+		}
 	}
-}
