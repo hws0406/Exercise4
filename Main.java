@@ -8,7 +8,7 @@ public class Main {
 		System.out.println("Model: " + d.getModel());
 		System.out.println("Color: " + d.getColor());
 		System.out.println("Processor: " + d.getProcessor());
-		System.out.println("RAM: " + d.getRAM() + "GB");
+		System.out.println("RAM: " + d.getRam() + "GB");
 		System.out.println("Length: " + d.getLength() + "cm");
 		System.out.println("Height: " + d.getHeight() + "cm");
 		System.out.println("Width: " + d.getWidth() + "cm");
@@ -24,7 +24,7 @@ public class Main {
 		System.out.println("Model: " + a.getModel());
 		System.out.println("Color: " + a.getColor());
 		System.out.println("Processor: " + a.getProcessor());
-		System.out.println("RAM: " + a.getRAM() + "GB");
+		System.out.println("RAM: " + a.getRam() + "GB");
 		System.out.println("Length: " + a.getLength() + "cm");
 		System.out.println("Height: " + a.getHeight() + "cm");
 		System.out.println("Width: " + a.getWidth() + "cm");
