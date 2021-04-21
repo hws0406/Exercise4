@@ -5,8 +5,7 @@ public class Dell extends Laptop {				//Dell as subclass of Laptop Parent class
 	Scanner scan = new Scanner(System.in);
 	
 	private String brand, model, color, processor;
-	private double ram, price;
-	
+	private double ram, price, months, installment;
 	
 	Dell(){
 		this.brand = "Dell";
@@ -23,8 +22,11 @@ public class Dell extends Laptop {				//Dell as subclass of Laptop Parent class
 				}
 				else if (ram == 16) {
 					this.price = 3500;
-			
-		System.out.println();
+			    }
+		System.out.print("Enter months: ");
+		this.months = scan.nextDouble();
+		this.installment = this.price / this.months;
+	}
 	
 	String getBrand() {
 		return this.brand;
@@ -44,5 +46,13 @@ public class Dell extends Laptop {				//Dell as subclass of Laptop Parent class
 
 	double getRam() {
 		return this.ram;
+	}
+	
+	double getPrice() {
+		return this.price;
+	}
+	
+	double getInstallment() {
+		return this.getInstallment();
 	}
 }
