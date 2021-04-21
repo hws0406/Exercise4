@@ -29,3 +29,5 @@ public class Main {
 		System.out.println("Width: " + a.getWidth() + "cm");
 		System.out.println("Weight: " + a.getWeight() + "kg");
 		System.out.printf("Price: RM%.2f %n" + a.getPrice());
+	}
+}
