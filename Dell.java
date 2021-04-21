@@ -13,8 +13,7 @@ public class Dell extends Laptop {				//Dell as subclass of Laptop Parent class
 		this.model = scan.nextLine();
 		System.out.print("Enter color: ");
 		this.color = scan.nextLine();
-		System.out.print("Enter processor: ");
-		this.processor = scan.nextLine();
+		this.processor = "Intel i7";
 		System.out.print("Enter RAM size: ");
 		this.ram = scan.nextDouble();
 				if (ram == 8) {
