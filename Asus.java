@@ -45,4 +45,8 @@ public class Dell extends Laptop {				//Dell as subclass of Laptop Parent class
 	double getRam() {
 		return this.ram;
 	}
+	
+	double getPrice() {
+		return this.price;
+	}
 }
