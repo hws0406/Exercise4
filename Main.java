@@ -2,7 +2,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Dell d = new Laptop();
+		Dell d = new Dell();
 		System.out.println("\n--LAPTOP 1--");
 		System.out.println("Brand: " + d.getBrand());
 		System.out.println("Model: " + d.getModel());
@@ -17,7 +17,7 @@ public class Main {
 		
 		System.out.println();
 		
-		Asus a = new Laptop();
+		Asus a = new Asus();
 		System.out.println("\n--LAPTOP 2--");
 		System.out.println("Brand: " + a.getBrand());
 		System.out.println("Model: " + a.getModel());
