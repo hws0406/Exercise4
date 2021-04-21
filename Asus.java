@@ -1,11 +1,11 @@
 
 import java.util.Scanner;
 
-public class Asus extends Laptop {				//Asus as subclass of Laptop Parent class
+public class Asus extends Laptop {				//Dell as subclass of Laptop Parent class
 	Scanner scan = new Scanner(System.in);
 	
 	private String brand, model, color, processor;
-	private double ram, price;
+	private double ram, price, months, installment;
 	
 	Asus(){
 		this.brand = "Asus";
@@ -23,6 +23,12 @@ public class Asus extends Laptop {				//Asus as subclass of Laptop Parent class
 				else if (ram == 16) {
 					this.price = 4000;
 				}
+		System.out.print("Enter months: ");
+		this.months = scan.nextDouble();
+		this.installment = this.price / this.months;
+		
+		System.out.println();
+		
 	}
 
 	String getBrand() {
@@ -47,5 +53,9 @@ public class Asus extends Laptop {				//Asus as subclass of Laptop Parent class
 	
 	double getPrice() {
 		return this.price;
+	}
+	
+	double getInstallment() {
+		return this.getInstallment();
 	}
 }
